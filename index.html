@@ -55,7 +55,7 @@ display: inline-block;
 }
 #projects{
 	margin-left: 434px;
-	width: 700px;
+	width: 740px;
 	   line-height: 1.6;
 }
 
@@ -75,8 +75,13 @@ display: inline-block;
 	border: 2px solid black;
 		padding: 5px;
 }
-
-
+#pane {
+line-height: 0%; 
+}
+#pane2 {
+line-height: 550%; 
+margin-bottom: -20px;
+}
 </style>
 </head>
 <script type="text/javascript">
@@ -105,16 +110,10 @@ document.location = "mobile.html";
 <div id = "contact">
 <a href="Matthew's Resume.pdf">Resume</a>
 <p><b>Contact Me:</b></p>
-<i class="fas fa-envelope"></i>&nbsp;&nbsp<a href="mailto:matthewpham55@gmail.com">matthewpham55@gmail.com</a>
-<br>
-<br>
-<i class="fab fa-github"></i>&nbsp;&nbsp<a href="https://github.com/matthew-pham">matthew-pham</a>
-<br>
-<br>
-<i class="fab fa-github"></i>&nbsp;&nbsp<a href="https://github.com/KevinAndMatthewsProjects">Kevin and Matthew's Projects</a>
-<br>
-<br>
-<i class="fab fa-linkedin"></i>&nbsp;&nbsp<a href="https://www.linkedin.com/in/matthewdpham/">matthewdpham</a>
+<p><i class="fas fa-envelope"></i>&nbsp;&nbsp<a href="mailto:matthewpham55@gmail.com">matthewpham55@gmail.com</a></p>
+<p><i class="fab fa-github"></i>&nbsp;&nbsp<a href="https://github.com/matthew-pham">matthew-pham</a></p>
+<p><i class="fab fa-github"></i>&nbsp;&nbsp<a href="https://github.com/KevinAndMatthewsProjects">Kevin and Matthew's Projects</a></p>
+<p><i class="fab fa-linkedin"></i>&nbsp;&nbsp<a href="https://www.linkedin.com/in/matthewdpham/">matthewdpham</a></p>
 </div>
 </div>
 <div id = "inline">
@@ -124,22 +123,46 @@ CS 196 - Freshman Honors </br></br>
 MATH 241 - Calculus III </p>
 <br>
 <br>
-<br>
-<br>
-
+<div id = "pane"><h2>What I'm Currently Working On:</h2></div>
 </div>
 <div id = "projects">
-<h2>What I'm Currently Working On: </h2>
 <h3>UITraffic (CS 196 Semester Project):</h3><a href = "https://github.com/matthew-pham/UITraffic">https://github.com/matthew-pham/UITraffic</a>
 <p>Helping people plan around human dense areas for walking traffic purposes. Predict ahead of time if a location will be populated to help make plans. For development purposes,
 the locations were notable areas around the University of Illinois at Urbana-Champaign's campus.</p>
-<p>Technlogies used: React Native, PHP, MySQL, JavaScript</p>
+<p>Technlogies used: React Native, PHP, MySQL, JavaScript, HTML, CSS</p>
 <h3>Spotify Music Recommendation:</h3><a href = "https://github.com/matthew-pham/SpotifyMusicRecommendation">https://github.com/matthew-pham/SpotifyMusicRecommendation</a>
 <p>Creates a playlist of songs that a user is likely to enjoy based on an input of 5 songs. I am planning on adding some aspect of machine learning to this project.</p>
 <p>Technologies Used: Java, Java Spotify Wrapper API, last.fm REST API</p>
 <!--<h3>Project Black Book:</h3><a href = "https://github.com/matthew-pham/projectblackbook">https://github.com/matthew-pham/projectblackbook</a>-->
-
-
+<div id = "pane2">
+<h2>Past Projects:</h2></div>
+<h3>Perspective (EVHacks III Most Useful Hack Winner):</h3>
+<p>Worked with: <a href = "https://github.com/jamqd">https://github.com/jamqd</a></p>
+<p>An website that takes a user's search query and finds 2 news articles with differing viewpoints about that topic and displays them side by side on the webpage. I wrote a custom MongoDB REST API for communication between the Java backend and the website's server.</p>
+<p>Technlogies Used: Java, c9.io, HTML, CSS, Custom MongoDB REST API</p>
+<h3>IoTSmartHouse (HSHacks III):</h3><a href = "https://github.com/KevinAndMatthewsProjects/IoTSmartHouse_HsHacks">https://github.com/KevinAndMatthewsProjects/IoTSmartHouse_HsHacks</a>
+<p>Allows a user to control Internet of Things (IoT) devices using a mobile application. For development purposes, LED's wired to an Arduino represented devices. A basic implementation of machine learning (devices enabling/disabling based on a user's regular schedule) was also incorporated.</p>
+<p>Technologies Used: Arduino, PubNub, Android SDK</p>
+<h3>IoT SmartHouse (API World 2017 - Largest API Integration Hackathon in the Nation - Dell Boomi Challenge 1st Place Winner):</h3><a href = "https://twitter.com/divmanickam/status/912090863395733504">https://twitter.com/divmanickam/status/912090863395733504</a>
+<p>Allows a user to control various IoT devices using an app on the Dell Boomi platform. I worked with directly Dell software engineers to develop a method to write a string to the screen of a Boomi application.</p>
+<p>Technologies Used: Dell Boomi, Twilio API, c9.io
+<h3>PositionPrediction (AP Calculus BC Final Project):</h3><a href = "https://github.com/KevinAndMatthewsProjects/PositionPrediction">https://github.com/KevinAndMatthewsProjects/PositionPrediction</a>
+<p>Utilizes Euler's method to live approximate a projectile in order to predict where the projectile will land.</p>
+<p>Technlogies Used: Java
+<h3>LeagueOfMasteries (Riot Games 2017 API Challenge):</h3><a href  = "https://github.com/KevinAndMatthewsProjects/LeagueOfMasteries">https://github.com/KevinAndMatthewsProjects/LeagueOfMasteries</a>
+<p>Recommends new characters for a League of Legends player to play based on their current mastery of characters.</p>
+<p>Technologies Used: Java, PHP, c9.io, HTML, CSS, Riot Games API</p>
+<h3>Goals (Los Altos Hacks II):</h3><a href = "https://github.com/KevinAndMatthewsProjects/Goals">https://github.com/KevinAndMatthewsProjects/Goals</a>
+<p>Allows a user to anonymously post their goals and receive positive feedback and encouragement from others, while managing their goals in a dashboard.</p>
+<p>Technologies Used: c9.io, PHP, HTML, CSS
+<h3>MusicByText (EVHacks I Most Technical Hack Winner):</h3>
+<p>An application that receives a community's song requests by text and sorts requests by popularity. The prioritized songs are played. Teacher who were judges at EVHacks I said that EVHS Leadership could utilize the app.</p>
+<p>Technologies Used: Java, Twilio API</p>
+<h3>IoT Traffic Analysis (Integrate 2015 - Largest API + Integration Hackathon in the Nation - NetApp Challenge 2nd Place Winner):</h3>
+<p>An application that analyzes traffic data and can plan an efficient route through traffic for emergency response vehicles. With more time and resources, affecting traffic such as changing stop lights for the vehicle could be added.</p>
+<p>Technologies Used: Java, NetApp Cloud ONTAP for AWS</p>
+<br>
+<p>Thank you for reading through my website! :)</p>
 </div>
 </div>
 
